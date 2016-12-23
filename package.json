@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "0.0.001",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PrimeLens",
+  "license": ""
+}

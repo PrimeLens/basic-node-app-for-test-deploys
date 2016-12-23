@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div>basic-node-app-for-test-deploys</div>
+    <p id="mydate"></p>
+
+<script>
+    var d = new Date();
+    var dStr = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'][d.getDay()]
+        + ' ' + d.getUTCDate() + ', ' + 
+        ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()]
+    document.getElementById('mydate').innerHTML = dStr;
+</script>
+
+</body>
+</html>
